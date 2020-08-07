@@ -1,0 +1,45 @@
+
+/* Общие */
+
+@import url(../vendor/normalize.css);
+@import url(../blocks/root/root.css);
+@import url(../fonts/Inter\ Web/inter.css);
+
+
+/* Шапка сайта, блок header */
+
+@import url(../blocks/header/header.css);
+
+
+/* Main content */
+/* Секция, блок roadmap */
+
+@import url(../blocks/roadmap/roadmap.css);
+
+
+/* Секция, блок statistics */
+
+@import url(../blocks/statistics/statistics.css);
+
+
+
+/* Секция, блок gallery */
+
+@import url(../blocks/gallery/gallery.css);
+
+
+/* Секция, блок significant-places */
+
+@import url(../blocks/significant-places/significant-places.css);
+@import url(../blocks/cards/cards.css);
+
+
+/* Секция, блок baikal-blog */
+
+@import url(../blocks/baikal-blog/baikal-blog.css);
+@import url(../blocks/baikal/baikal.css);
+
+
+/* Подвал сайта, блок footer */
+
+@import url(../blocks/footer/footer.css);

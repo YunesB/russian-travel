@@ -66,13 +66,13 @@
 }
 
 .header__subtitle {
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  max-width: 40%;
-  margin: 0 auto;
-  margin-bottom: 64px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    max-width: 40%;
+    margin: 0 auto;
+    margin-bottom: 64px;
 }
 
 
@@ -105,7 +105,9 @@
 .statistics {
     display: block;
     margin: 0 auto;
-    max-width: 984px; 
+    max-width: 984px;
+    margin-bottom: 92px;
+    margin-top: 114px;
 }
 
 .statistics__section-title {
@@ -113,7 +115,6 @@
     font-size: 54px;
     line-height: 58px;
     max-width: 690px; 
-    margin-top: 114px;
     margin-bottom: 40px;
 }
 
@@ -129,18 +130,23 @@
     font-size: 12px;
     line-height: 18px;
     max-width: 690px;
-    margin-bottom: 92px;
+    margin: 0;
+}
+
+.statistics__raw-data_regural-font {
+    font-weight: normal;
+    margin: 0;
 }
 
 
 /* Блок Gallery */
 
 .gallery {
-    margin: 0 48px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
     justify-items: center;
+    justify-self: center;
 }
 
 .gallery__image {
@@ -151,7 +157,7 @@
 }
 
 
-/* Блок Significant Places */
+/* Блок Significant-Places */
 
 .significant-places {
     margin: 0 auto;
@@ -184,8 +190,8 @@
 }
 
 .card__image {
-    object-fit: cover;
-    max-width: 460px;
+    object-fit: contain;
+    max-width: 100%;
 }
 
 .card__url {
@@ -236,7 +242,7 @@
 }
 
 
-/* Блок Baikal */
+/* Блок Baikal-Blog */
 
 .baikal-blog {
     margin: 0 auto;
@@ -249,7 +255,7 @@
     flex-direction: column;
     position: relative;
     background-image: url(./images/__background.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -276,7 +282,7 @@
     color: white;
 }
 
-.baikal__title-text {
+.baikal__title {
     margin: 0 auto;
     margin-top: 245px;
     font-size: 72px;
@@ -286,7 +292,7 @@
     z-index: 1;
 }
 
-.baikal__subtitle-text {
+.baikal__subtitle {
     margin: 0 auto;
     margin-top: 32px;
     margin-bottom: 245px;
@@ -305,7 +311,7 @@
     max-width: 1184px;
     padding-top: 92px;
     padding-bottom: 24px;
-    margin: 0 auto;
+    margin: 0 48px;
 }
 
 .footer__container {
@@ -350,7 +356,7 @@
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 1px) and (max-width: 425px) {
     
     .header {
         padding-top: 30px;
@@ -392,30 +398,22 @@
         margin-left: 16px;
     }
 
-    .statistics__section-title {
-        font-size: 32px;
-        line-height: 35px;
-        margin-top: 64px;
-    }
-
     .statistics {
+        margin-top: 64px;
         max-width: 288px; 
     }
-    
+
     .statistics__section-title {
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
     }
 
     .gallery {
-        margin: 0;
-        grid-template-columns: repeat(auto-fit, minmax(288px, 352px));
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .significant-places {
         padding-top: 64px;
-
     }
     
     .card__item {
@@ -425,14 +423,16 @@
     }
     
     .card__title {
-        margin: 0 16px;
-        max-width: 288px;
+        display: block;
+        margin: 0 auto;
+        min-width: 288px;
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;
     }
     
     .card__image {
+        margin: 0 auto;
         object-fit: contain;
         max-width: 320px;
     }
@@ -442,28 +442,24 @@
     }
     
     .card__text {
-        margin: 0 16px 24px 16px;
+        margin: 0 auto;
+        margin-bottom: 24px;
         font-size: 16px;
         max-width: 288px;
     }
 
     .card__text:last-child {
-        margin: 0 16px;
+        margin: 0 auto;
     }
 
-
-    .baikal {
-        background-size: cover;
-    }
-
-    .baikal__title-text {
+    .baikal__title {
         font-size: 32px;
         line-height: 35px;
         max-width: 250px;
         margin-top: 33px;
     }
     
-    .baikal__subtitle-text {
+    .baikal__subtitle {
         font-size: 14px;
         line-height: 16px;
         max-width: 270px;
@@ -496,17 +492,80 @@
 }
 
 
+@media screen and (min-width: 426px) and (max-width: 667px) {
+    .header__title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    
+    .header__subtitle {
+        font-size: 30px;
+        line-height: 36px;
+    }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+    
+    .baikal__title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 250px;
+        margin-top: 33px;
+    }
+    
+    .baikal__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 270px;
+        margin: 0 auto;
+        margin-bottom: 33px;
+    }
+
+    .footer {
+        margin: 0;
+    }
+
+    .footer__link {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .footer__author {
+        font-size: 10px;
+        line-height: 24px;
+    }
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 500px) {
+    .footer__container {
+        display: block;
+        margin-left: 16px;
+    }
+
+    .footer__link {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .footer__author {
+        text-align: left;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
 
     .header__links {
         margin-right: 24px;
     }
 
     .header__title {
-        text-align: center;
-        max-width: 720px;
-        margin: 0 auto;
+        max-width: 90vw;
         margin-top: 54px;
         margin-bottom: 32px;
     }
@@ -531,19 +590,12 @@
         font-size: 12px;
         line-height: 18px;
         max-width: 690px;
-        margin-bottom: 88px;
     }
 
     .gallery {
         margin: 0 24px;
-        grid-template-columns: repeat(2, 352px);
-
+        grid-template-columns: repeat(2, 1fr);
     }
-
-    .gallery__image {
-        width: 100%;
-    }
-
 
     .card__item {
         margin: 0 24px;
@@ -558,7 +610,7 @@
     }
 
     .card__image {
-        max-width: 340px;
+        max-width: 100%;
     }
     
     .card__url {
@@ -568,16 +620,15 @@
         align-self: end;
     }
 
-    
-    .baikal__title-text {
+    .baikal__title {
         margin-top: 115px;
     }
     
-    .baikal__subtitle-text {
+    .baikal__subtitle {
         margin-bottom: 115px;
     }
 
-    .footer__container {
+    .footer {
         margin: 0 24px;
     }
 }
@@ -609,16 +660,13 @@
     }
 
     .statistics {
-        margin: 0 48px; 
+        margin-left: 48px;
+        margin-right: 48px; 
     }
 
     .gallery {
         margin: 0 48px;
-        grid-template-columns: repeat(3, 300px);
-    }
-
-    .gallery__image {
-        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .card__item {
@@ -628,7 +676,7 @@
         column-gap: 32px;
     }
     
-    .baikal__title-text {
+    .baikal__title {
         margin-top: 195px;
     }
     
@@ -639,6 +687,14 @@
     .footer__container {
         margin: 0 48px;
     }
+
+    .footer {
+        margin: 0 24px;
+    }
 }
 
-*/
+@media screen and (min-width: 1025px) {
+    .gallery {
+        margin: 0 48px;
+    }
+}
