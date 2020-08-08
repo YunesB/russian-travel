@@ -10,22 +10,41 @@
 
 @import url(../blocks/header/header.css);
 
+/*
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css); */
+
 
 /* Main content */
 /* Секция, блок roadmap */
 
 @import url(../blocks/roadmap/roadmap.css);
 
+/*
+@import url(../blocks/roadmap/__image/roadmap__image.css);
+@import url(../blocks/roadmap/__subline/roadmap__subline.css); */
+
+
 
 /* Секция, блок statistics */
 
 @import url(../blocks/statistics/statistics.css);
 
-
+/*
+@import url(../blocks/statistics/__main-text/statistics__main-text.css);
+@import url(../blocks/statistics/__raw-data/statistics__raw-data.css);
+@import url(../blocks/statistics/__raw-data/_regular-font/statistics_raw-data_regular-font.css);
+@import url(../blocks/statistics/__section-title/statistics.css); */
 
 /* Секция, блок gallery */
 
 @import url(../blocks/gallery/gallery.css);
+
+/*
+@import url(../blocks/gallery/__image/gallery__image.css); */
 
 
 /* Секция, блок significant-places */
@@ -33,13 +52,34 @@
 @import url(../blocks/significant-places/significant-places.css);
 @import url(../blocks/cards/cards.css);
 
+/*
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__url/cards__url.css);
+@import url(../blocks/cards/__url/_text/cards__url_text.css);
+@import url(../blocks/cards/__url/_link/cards__url_link.css);
+@import url(../blocks/cards/__text-container/cards__text-container.css);
+@import url(../blocks/cards/__text/cards__text.css); */
+
 
 /* Секция, блок baikal-blog */
 
 @import url(../blocks/baikal-blog/baikal-blog.css);
 @import url(../blocks/baikal/baikal.css);
 
+/*
+@import url(../blocks/baikal/__title/baikal__title.css);
+@import url(../blocks/baikal/__subtitle/baikal__subtitle.css);
+@import url(../blocks/baikal/__link/baikal__link.css); */
+
 
 /* Подвал сайта, блок footer */
 
 @import url(../blocks/footer/footer.css);
+
+/*
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__author/footer__author.css); */
