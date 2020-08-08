@@ -12,14 +12,14 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__subtitle/header__subtitle.css);
 
 
 /* Main content */
 /* Секция, блок roadmap */
 
 @import url(../blocks/roadmap/roadmap.css);
+@import url(../blocks/roadmap/__title/roadmap_title.css);
+@import url(../blocks/roadmap/__subtitle/roadmap__subtitle.css);
 @import url(../blocks/roadmap/__image/roadmap__image.css);
 @import url(../blocks/roadmap/__subline/roadmap__subline.css);
 

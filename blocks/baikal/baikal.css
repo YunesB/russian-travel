@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background-image: url(../../images/__background.png);
+    background-image: url(../../images/__baikal-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
