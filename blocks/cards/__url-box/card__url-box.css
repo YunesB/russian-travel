@@ -1,0 +1,12 @@
+.card__url-box {
+    margin: 0;
+    padding: 0;
+    max-width: 454px;
+    align-self: end;
+}
+
+@media screen and (min-width: 1px) and (max-width: 425px) { 
+    .card__url-box {
+        display: none;
+    }
+}

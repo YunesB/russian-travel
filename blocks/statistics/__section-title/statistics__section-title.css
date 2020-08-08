@@ -1,0 +1,14 @@
+.statistics__section-title {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    max-width: 690px; 
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1px) and (max-width: 425px) {
+    .statistics__section-title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

@@ -6,19 +6,9 @@
     justify-self: center;
 }
 
-.gallery__image {
-    display: block;
-    max-width: 100%;   
-    object-fit: contain;
-}
-
 @media screen and (min-width: 1px) and (max-width: 425px) {
     .gallery {
         grid-template-columns: repeat(1, 1fr);
-    }
-
-    .gallery__image {
-        max-width: 288px;
     }
 }
 
