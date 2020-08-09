@@ -1,15 +1,6 @@
 .footer__link {
     text-decoration: none;
     color: white;
-    font-size: 16px;
-    line-height: 18px;
-    display: inline;
-    margin-right: 18px;
-    padding: 0;
-}
-
-.footer__link:last-child {
-    margin-right: 0;
 }
 
 .footer__link:hover {
@@ -17,31 +8,4 @@
     transition: .2s;
     border-bottom: 1px solid white;
     padding-bottom: 3px;
-}
-
-@media screen and (min-width: 1px) and (max-width: 425px) {
-    .footer__link {
-        display: block;
-        margin-right: 0;
-        margin-bottom: 32px;
-        font-size: 24px;
-        line-height: 24px;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 667px) {
-    .footer__link {
-        font-size: 12px;
-        line-height: 24px;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 667px) {
-    .footer__link {
-        display: block;
-        margin-right: 0;
-        margin-bottom: 32px;
-        font-size: 24px;
-        line-height: 24px;
-    }
 }

@@ -5,25 +5,18 @@
     margin: 0;
 }
 
-@media screen and (min-width: 1px) and (max-width: 425px) {
+@media screen and (max-width: 667px) {
     .footer__author {
-        text-align: left;
         font-size: 14px;
         line-height: 14px;
+        text-align: left;
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 667px) {
-    .footer__author {
-        font-size: 10px;
-        line-height: 24px;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 667px) {
+@media screen and (max-width: 425px) {
     .footer__author {
         text-align: left;
-        font-size: 14px;
         line-height: 14px;
+        font-size: 14px;
     }
 }

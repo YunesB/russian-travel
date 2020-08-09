@@ -1,9 +1,8 @@
-
 /* Общие */
 
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
-@import url(../fonts/Inter\ Web/inter.css);
+@import url(../fonts/inter_web/inter.css);
 
 
 /* Шапка сайта, блок header */
@@ -11,18 +10,20 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link-item/header__link-item.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_state/header__link_state_active.css);
 
 
 /* Main content */
 /* Секция, блок roadmap */
 
 @import url(../blocks/roadmap/roadmap.css);
+@import url(../blocks/roadmap/__figure/roadmap__figure.css);
 @import url(../blocks/roadmap/__title/roadmap_title.css);
 @import url(../blocks/roadmap/__subtitle/roadmap__subtitle.css);
 @import url(../blocks/roadmap/__image/roadmap__image.css);
 @import url(../blocks/roadmap/__subline/roadmap__subline.css);
-
 
 
 /* Секция, блок statistics */
@@ -31,7 +32,7 @@
 @import url(../blocks/statistics/__section-title/statistics__section-title.css);
 @import url(../blocks/statistics/__main-text/statistics__main-text.css);
 @import url(../blocks/statistics/__raw-data/statistics__raw-data.css);
-@import url(../blocks/statistics/__raw-data/_regular-font/statistics_raw-data_regular-font.css);
+@import url(../blocks/statistics/__regular-font/statistics_regular-font.css);
 
 /* Секция, блок gallery */
 
@@ -39,23 +40,20 @@
 @import url(../blocks/gallery/__image/gallery__image.css);
 
 
-/* Секция, блок significant-places */
+/* Секция, блок places */
 
-@import url(../blocks/significant-places/significant-places.css);
-@import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/__item/card__item.css);
-@import url(../blocks/cards/__title/card__title.css);
-@import url(../blocks/cards/__image/card__image.css);
-@import url(../blocks/cards/__url-box/card__url-box.css);
-@import url(../blocks/cards/__url-box/_content/card__url-box_content_text.css);
-@import url(../blocks/cards/__url-box/_content/card__url-box_content_link.css);
-@import url(../blocks/cards/__text-container/card__text-container.css);
-@import url(../blocks/cards/__text/card__text.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__item/places__item.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__url-box/places__url-box.css);
+@import url(../blocks/places/__url-text/places__url-text.css);
+@import url(../blocks/places/__url-link/places__url-link.css);
+@import url(../blocks/places/__text-container/places__text-container.css);
+@import url(../blocks/places/__text/places__text.css);
 
 
 /* Секция, блок baikal-blog */
-
-@import url(../blocks/baikal-blog/baikal-blog.css);
 
 @import url(../blocks/baikal/baikal.css);
 @import url(../blocks/baikal/__title/baikal__title.css);
@@ -68,5 +66,6 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link-item/footer__link-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);

@@ -1,27 +1,8 @@
 .header__links {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     list-style-type: none;
-    margin: 0 48px 0 0;
     padding: 0;
-}
-
-
-
-@media screen and (min-width: 1px) and (max-width: 425px) {
-    .header__links {
-        margin: 0 18px 0 0;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    .header__links {
-        margin-right: 24px;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .header__links {
-        margin-right: 24px;
-    }
+    margin: 0;
 }

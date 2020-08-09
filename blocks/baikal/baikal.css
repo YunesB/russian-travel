@@ -1,24 +1,5 @@
 .baikal {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    background-image: url(../../images/__baikal-trains.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.baikal::after {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    content: '';
-    background-color: #000;
-    transition: opacity 0.5s;
-    opacity: .3;
-}
-
-.baikal:hover:after {
-    opacity: .8;
+    max-width: 1184px;
+    max-height: 740px;
+    margin: 0 auto;
 }

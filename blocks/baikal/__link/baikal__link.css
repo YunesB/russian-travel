@@ -1,6 +1,29 @@
 .baikal__link {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     width: 100%;
     height: 100%;
     text-decoration: none;
+    background-image: url(../../../images/__baikal-trains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
     color: white;
+}
+
+.baikal__link::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: #000;
+    transition: opacity 0.5s;
+    opacity: .3;
+}
+
+.baikal__link:hover:after {
+    opacity: .8;
 }

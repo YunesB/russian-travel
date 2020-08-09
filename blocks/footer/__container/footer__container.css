@@ -3,21 +3,9 @@
     justify-content: space-between;
 }
 
-@media screen and (min-width: 1px) and (max-width: 425px) {
-    .footer__container {
-        display: block;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 667px) {
+@media screen and (max-width: 667px) {
     .footer__container {
         display: block;
         margin-left: 16px;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .footer__container {
-        margin: 0 48px;
     }
 }

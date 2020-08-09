@@ -1,19 +1,10 @@
 .header__link {
+    display: inline;
     color: white;
     text-decoration: none;
     font-size: 24px;
     line-height: 28px;
     text-align: right;
-    margin-right: 18px;
-    padding: 0;
-}
-
-.header__link:nth-child(2) {
-    margin-right: 0;
-}
-
-.header__link_active {
-    border-bottom: 2px solid white;
 }
 
 .header__link:hover {
@@ -21,4 +12,11 @@
     transition: .2s;
     border-bottom: 2px solid white;
     padding-bottom: 3px;
+}
+
+@media screen and (max-width: 425px) {
+    .header__link {
+        font-size: 18px;
+        line-height: 24px;
+    }
 }

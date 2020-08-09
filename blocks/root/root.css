@@ -6,9 +6,8 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  background-color: #2A2C2F;;
-  background-size: cover;
+  background-color: #2A2C2F;
+  background-size: 100% 100%;
   color: white;
-  max-width: 1600px;
   margin: 0 auto;
 }

@@ -1,28 +1,25 @@
 .statistics {
     display: block;
-    margin: 0 auto;
+    margin: 92px auto;
     max-width: 984px;
-    margin-bottom: 92px;
-    margin-top: 114px;
 }
 
-@media screen and (min-width: 1px) and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
     .statistics {
-        margin-top: 64px;
-        max-width: 288px; 
+        margin: 92px 48px; 
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .statistics {
         margin: 88px 24px;
         max-width: 720px;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 425px) {
     .statistics {
-        margin-left: 48px;
-        margin-right: 48px; 
+        margin-top: 64px;
+        max-width: 288px; 
     }
 }

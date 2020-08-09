@@ -1,11 +1,11 @@
-.card__url-box_content_link {
+.places__url-link {
     text-decoration: underline;
     font-size: 18px;
     line-height: 22px;
     color: white;
 }
 
-.card__url-box_content_link:hover {
+.places__url-link:hover {
     text-decoration: none;
     transition: .2s;
     border-bottom: 1px solid white;
