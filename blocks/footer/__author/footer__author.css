@@ -5,18 +5,8 @@
     margin: 0;
 }
 
-@media screen and (max-width: 667px) {
-    .footer__author {
-        font-size: 14px;
-        line-height: 14px;
-        text-align: left;
-    }
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 730px) {
     .footer__author {
         text-align: left;
-        line-height: 14px;
-        font-size: 14px;
     }
 }

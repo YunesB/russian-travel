@@ -1,0 +1,11 @@
+.place__url-link {
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    transition: .2s;
+}
+
+.place__url-link:hover {
+    opacity: .8;;
+}

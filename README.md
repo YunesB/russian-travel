@@ -8,6 +8,7 @@
 
 * Flexbox, Grid, адаптивная верстка.
 * Язык - русский, методолгия - БЭМ.
+* [Ссылка на макет в страницу](https://yunesb.github.io/russian-travel/)
 
 **Figma**
 

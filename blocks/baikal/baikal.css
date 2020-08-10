@@ -1,14 +1,7 @@
 .baikal {
     max-width: 1184px;
-    max-height: 740px;
+    height: 740px;
     margin: 0 auto;
-}
-
-@media screen and (min-width: 1281px) {
-    .baikal {
-        margin: 0 auto;
-        max-width: 1184px;
-    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -19,6 +12,20 @@
 
 @media screen and (max-width: 1024px) {
     .baikal {
+        margin: 0 auto;
+        height: 640px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .baikal {
         margin: 0;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .baikal {
+        height: 200px;
     }
 }

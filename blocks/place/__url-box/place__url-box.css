@@ -1,4 +1,4 @@
-.places__url-box {
+.place__url-box {
     margin: 0;
     padding: 0;
     max-width: 454px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 425px) { 
-    .places__url-box {
+    .place__url-box {
         display: none;
     }
 }

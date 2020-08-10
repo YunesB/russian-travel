@@ -1,31 +1,18 @@
 .baikal__subtitle {
     margin: 0 auto;
     margin-top: 32px;
-    margin-bottom: 245px;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    width: 360px;
+    max-width: 360px;
     z-index: 1;
 }
 
-@media screen and (max-width: 1024px) {     
-    .baikal__subtitle {
-        margin-bottom: 195px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .baikal__subtitle {
-        margin-bottom: 115px;
-    }
-}
-
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 600px) {
     .baikal__subtitle {
         font-size: 14px;
         line-height: 16px;
         max-width: 270px;
-        margin-bottom: 33px;
+        margin-top: 16px;
     }
 }

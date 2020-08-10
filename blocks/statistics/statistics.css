@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 425px) {
     .statistics {
-        margin-top: 64px;
+        margin: 88px 16px 64px 16px;
         max-width: 288px; 
     }
 }

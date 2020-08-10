@@ -5,9 +5,9 @@
     max-width: 984px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .roadmap {
-        margin: 0 48px;
+        margin: 0 auto;
         padding: 0;
     }
 }
