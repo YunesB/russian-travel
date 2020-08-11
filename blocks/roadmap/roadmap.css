@@ -7,7 +7,13 @@
 
 @media screen and (max-width: 1024px) {
     .roadmap {
-        margin: 0 auto;
+        margin: 0 48px;
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .roadmap {
+        margin: 0 auto;
     }
 }
