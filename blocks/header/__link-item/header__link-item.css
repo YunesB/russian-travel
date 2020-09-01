@@ -6,3 +6,17 @@
 .header__link-item:last-of-type {
     margin-right: 0;
 }
+
+.header__link-item:first-of-type {
+    margin-right: 70px;
+}
+
+@media screen and (max-width: 550px) {
+    .header__link-item {
+        margin: 0px;
+    }
+
+    .header__link-item:first-of-type {
+        margin-right: 0;
+    }
+}

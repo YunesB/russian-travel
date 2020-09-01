@@ -13,6 +13,7 @@
 @import url(../blocks/header/__link-item/header__link-item.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__link/_state/header__link_state_active.css);
+@import url(../blocks/header/__button/header__button.css);
 
 
 /* Main content */
@@ -69,3 +70,6 @@
 @import url(../blocks/footer/__link-item/footer__link-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
+
+/* Секция, блок popup */
+@import url('../blocks/popup/popup.css')
