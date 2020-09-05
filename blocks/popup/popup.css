@@ -50,11 +50,11 @@
     padding: 0;
     background-color: white;
     text-decoration: underline;
-    transition: 0.7s;
+    transition: .2s;
 }
 
 .popup__info-button:hover {
-    opacity: .8;
+    opacity: .5;
     cursor: pointer;
 }
 
@@ -101,10 +101,11 @@
     outline: none;
     padding: 0;
     background-color: white;
+    transition: .2s;
 }
 
-.popup__info-pic-close {
-    opacity: .8;
+.popup__info-pic-close:hover {
+    opacity: .5;
     cursor: pointer;  
 }
 
@@ -121,10 +122,11 @@
     position: absolute;
     top: 30px;
     right: 50px;
+    transition: .2s;
 }
 
 .popup__close:hover {
-    opacity: .8;
+    opacity: .5;
     cursor: pointer;
 }
 
@@ -161,5 +163,23 @@
         right: 20px;
         width: 25px;
         height: 25px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .popup__container {
+        max-width: 500px;
+    }
+
+    .popup__info-button {
+        display: none;
+    }
+
+    .popup__heading {
+        margin: 30px 25px;
+    }
+
+    .popup__text {
+        margin: 30px 25px;
     }
 }
